@@ -1,4 +1,4 @@
-package wdm.example.ch2;
+package wdm.springboot.ch2.ch2_1;
 
 public class Pet {
     private String breed;
