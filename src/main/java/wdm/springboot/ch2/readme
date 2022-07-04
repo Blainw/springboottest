@@ -1,0 +1,8 @@
+ch2是讲的往Ioc容器注入的方式
+1.@Configuration注解下用@Bean注入
+
+2.@import注解，@import注解不能用在自己的类上面，比如User类上面不能用@import（User.class）
+
+3.@Conditional注解，条件装配注入，有许多子注解比如@ConditionalOnBean
+
+4.通过引入spring的bean配置文件来注入，用@ImportResource("classpath:类路径")
