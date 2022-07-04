@@ -9,4 +9,9 @@ public class Controller {
     public String test(){
         return "你好，springboot";
     }
+
+    @RequestMapping("/wdm")
+    public String aaa(){
+        return "王德明 你好";
+    }
 }
