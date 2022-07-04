@@ -6,7 +6,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 import wdm.springboot.ch2.ch2_4.User;
 
-@ImportResource("bean.xml")
+@ImportResource("bean.xml")//导入bean配置文件来往ioc容器注入
 @SpringBootApplication(scanBasePackages = "wdm.springboot.ch2.ch2_3")
 public class MyApplication {
     public static void main(String[] args) {
