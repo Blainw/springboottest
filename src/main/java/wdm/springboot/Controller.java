@@ -12,6 +12,6 @@ public class Controller {
 
     @RequestMapping("/wdm")
     public String aaa(){
-        return "wdm hello";
+        return "王德明 hello";
     }
 }
