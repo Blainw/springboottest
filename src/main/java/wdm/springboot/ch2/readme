@@ -1,4 +1,5 @@
-ch2是讲的往Ioc容器注入的方式
+ch2是讲的往Ioc容器注入的方式，包含下面四种：
+
 1.@Configuration注解下用@Bean注入
 
 2.@import注解，@import注解不能用在自己的类上面，比如User类上面不能用@import（User.class）
