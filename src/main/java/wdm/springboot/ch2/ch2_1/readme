@@ -1,0 +1,1 @@
+以前的spring都是在xml文件中通过bean标签注入，那么springboot如何配置bean，见MyBean类
