@@ -1,0 +1,5 @@
+ch3讲的是配置绑定：读取配置文件给容器中的对应类对象赋值
+
+第一种方式：在你要注入的类上加@ConfigurationProperties，并且要保证这个类加入到Ioc容器中
+
+第二种方式：在配置类上加@EnableConfigurationProperties(类型)，开启对应类的属性配置功能

@@ -1,4 +1,4 @@
-ch2是讲的往Ioc容器注入的方式，包含下面四种：
+ch2是讲的往Ioc容器注入对象的方式，包含下面四种：
 
 1.@Configuration注解下用@Bean注入
 
@@ -7,3 +7,4 @@ ch2是讲的往Ioc容器注入的方式，包含下面四种：
 3.@Conditional注解，条件装配注入，有许多子注解比如@ConditionalOnBean
 
 4.通过引入spring的bean配置文件来注入，用@ImportResource("classpath:类路径")
+
