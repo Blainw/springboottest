@@ -36,6 +36,20 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <!--简化写PO类的依赖，如果不需要指定版本，则默认用springboot指定的版本-->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+    <!--热更新依赖，不需要重新启动，就可以实时看到改变代码后的效果，快捷键ctrl+f9-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-devtools</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+
   </dependencies>
 
   <build>

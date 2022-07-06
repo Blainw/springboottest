@@ -1,0 +1,12 @@
+user02:
+  name: 张三
+  age: 23
+  uno: 1001
+  birth: 1999/1/16
+  interes:
+    - 篮球
+    - rap
+    - 唱跳
+  score:
+    english: 80.0
+    math: 90.0
