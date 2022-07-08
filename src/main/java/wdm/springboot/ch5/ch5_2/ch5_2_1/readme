@@ -1,0 +1,6 @@
+配置欢迎页面
+1.在静态资源路径下放index.html
+    如：在/wdm静态目录下放一个index.html文件，访问路径写：http://localhost:8080/index.html  或者直接不加
+
+配置图标
+    在静态目录/wdm下放入favicon.ico文件即可
