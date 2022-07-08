@@ -1,0 +1,16 @@
+以前：springmvc那一套，发送请求时，都是请求的controller，要自定义名称，比如新增用户请求叫/addUser,修改叫updateUser，等，一旦请求多起来，这样起名就很复杂
+
+现在：springBoot这一套，发送请求时统一叫/user, 然后根据你的请求类型进行对应操作，GET-获取用户，POST-保存用户，DELETE-删除用户，PUT-修改用户，这样一来，请求就变得简单了
+
+我们知道前端的form表单可以发get和post请求，那么delete和put类型的请求怎么发呢？
+    1)在前端的form表单里面加如：<input name="_method" type="hidden" value="DELETE"/>  这就是表示发送delete请求
+
+    2)在yml或properties配置文件中加入
+        mvc:
+            hiddenmethod:
+              filter:
+                enabled: true
+
+             表示开启功能
+
+             详细内容请看笔记springboot>5>3.1
