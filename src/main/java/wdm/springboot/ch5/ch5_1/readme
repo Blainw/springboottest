@@ -1,6 +1,7 @@
 静态资源访问，在类路径下，静态目录可以叫   static ，public，resources，META-INF/resources，资源放在里面都可以当作静态资源
 
-默认是/**,意思就是静态目录下的所有文件，要想自定义静态目录如/wdm下访问静态资源，则在配置文件中加入
+默认是/**,意思就是静态目录下的所有文件，
+1.要想自定义静态目录如/wdm下访问静态资源，则在配置文件中加入
                                                     spring:
                                                       web:
                                                         resources:
@@ -10,7 +11,7 @@
 
 测试访问：在启动项目后，比如访问 http://localhost:8080/aaa.jpg
 
-要想访问时，地址不直接向上面这样写，想这样写，如：http://localhost:8080/res/aaa.jpg
+2.要想访问时，地址不直接向上面这样写，想这样写，如：http://localhost:8080/res/aaa.jpg
 则在application.yml或者.properties中设置
                                             spring:
                                               mvc:
@@ -19,6 +20,6 @@
                                             这样就可以访问自己定义的路径了
 
 
-假如：有一个controller请求也是/res/aaa.jpg
+3.假如：有一个controller请求也是/res/aaa.jpg
 访问逻辑：首先会去controller看看能不能处理这个请求，如果能处理，直接根据controller的控制类方法操作，如果不能处理，则交给静态处理器处理，
 也就是说会先到controller去找aaa.jpg的请求，如果没有才会去静态资源目录下面找aaa.jpg资源
