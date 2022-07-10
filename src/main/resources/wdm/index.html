@@ -7,6 +7,7 @@
 <body>
 <h1>欢迎来到首页</h1>
 
+<p>以下是ch5_2_3的测试</p>
 <form action="/user" method="get">
     <input type="submit" value="提交get"/>
 </form>
@@ -14,13 +15,17 @@
     <input type="submit" value="提交post"/>
 </form>
 <form action="/user" method="post">
-    <input name="_method" type="hidden" value="DELETE"/>
+    <input name="_m" type="hidden" value="DELETE"/>
     <input type="submit" value="提交delete"/>
 </form>
 <form action="/user" method="post">
-    <input name="_method" type="hidden" value="PUT"/>
+    <input name="_m" type="hidden" value="PUT"/>
     <input type="submit" value="提交put"/>
 </form>
+<p>以下是ch5_2_4的测试</p>
+<a href="/name/王德明/age/23">展示请求参数，一个个接收</a><br/>
+<a href="/user/张三/age/18/height/180cm/weight/70kg">展示请求的参数，map集合一次性接收</a><br/>
+<a href="/user">请求头信息</a>
 
 </body>
 </html>

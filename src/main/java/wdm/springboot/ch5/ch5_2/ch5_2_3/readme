@@ -14,3 +14,12 @@
              表示开启功能
 
              详细内容请看笔记springboot>5>3.1
+
+
+             注意：如果想改_method这个默认名字，如下操作：
+               1）创建一个配置类Mycofig
+               2）在类上加上@Configuration(proxyBeanMethods=false)     目的是快速配置，因为里面没有依赖关系
+               3）创建一个方法，返回值是HiddenHttpMethodFilter类对象
+               4）创建一个HiddenHttpMethodFilter对象，用这个对象去.setMethodParam("你想要改的名字")
+               5）返回对象
+               6）在方法上加上@Bean注解，放到IoC容器中
