@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--用th:text可以改变文本值-->
+<h1 th:text="${str}">哈哈</h1>
+
+<h2>
+    <!--用th:href改变href的值-->
+    <a href="www.baidu.com" th:href="${link}">去博客</a>
+    <a href="www.baidu.com" th:href="@{link}">创建链接</a>
+</h2>
+</body>
+</html>
