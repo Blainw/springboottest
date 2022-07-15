@@ -1,4 +1,4 @@
-package wdm.springboot.ch6;
+package wdm.springboot.ch6.ch6_1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -12,8 +12,11 @@ user02:
     math: 90.0
 
 spring:
+#指定访问路径
 #  mvc:
 #    static-path-pattern: /res/**
+
+#  指定静态资源存放路径
   web:
     resources:
       static-locations: classpath:/wdm
@@ -23,6 +26,6 @@ spring:
       filter:
         enabled: true
 #设置以后项目启动必须以http://localhost:8080/aaa开始，其它请求另外再追加
-server:
-  servlet:
-    context-path: /aaa
+#server:
+#  servlet:
+#    context-path: /aaa
