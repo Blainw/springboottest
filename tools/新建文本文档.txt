@@ -1,0 +1,50 @@
+111111
+
+wipadmin
+
+学生账号：ywbstu01
+
+教职工账号：ywbstu01
+
+
+github   token登录
+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
+
+基础信息系统
+
+学情分析【教学质量】
+
+用户管理
+
+学生档案管理   学生成长管理   用学生测  HSXH320010302，用管理员测  18761123233   密码：wip@123
+
+学生csxs001
+老师csjs001     ls00002
+学校zlxx
+区zlq
+市zls
+
+基础信息
+监控系统
+
+应用集市
+
+
+<mirror>
+		<id>nexus-aliyun</id>
+		<mirrorOf>central</mirrorOf>
+		<name>Nexus aliyun</name>
+		<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+	</mirror>
+
+
+图书管理平台
+	审核内容
+
+20w册    1w1册已经
+
+1.正常打开，字迹清晰，不缺页
+2.要有目录，点过去不能有空白
+3.标题，简介，抽查内容,结尾
+
+企业考勤管理规定（范本，链接空白）

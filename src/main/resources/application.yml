@@ -25,6 +25,10 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
 #设置以后项目启动必须以http://localhost:8080/aaa开始，其它请求另外再追加
 #server:
 #  servlet:
