@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboottest" />
-        <module name="boot-05-web-admin" />
       </profile>
     </annotationProcessing>
   </component>
